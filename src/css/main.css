@@ -52,6 +52,7 @@ body {
 
 .logo img {
   width: var(--logo-width);
+  mix-blend-mode: darken;
 }
 
 .wrapper {

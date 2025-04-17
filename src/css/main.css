@@ -30,7 +30,7 @@ body {
 .template-header {
   background: var(--generic-template-background);
   height: 15vh;
-  display: flex;
+  display: none;
   align-items: end;
   justify-content: center;
   flex-flow: column wrap;
@@ -101,6 +101,7 @@ body {
 #accordionExample .accordion-button:not(.collapsed) {
   background: var(--accordion-background-active);
   color: var(--light-template-background);
+  display:none;
 }
 
 .footer-template {
@@ -129,7 +130,7 @@ body {
 }
 
 .cliboard-holder {
-  display: flex;
+  display: none;
   flex-flow: row wrap;
   justify-content: center;
   border: 2px dashed var(--primary-template-background);

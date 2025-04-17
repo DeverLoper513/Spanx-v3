@@ -107,7 +107,7 @@ body {
 .footer-template {
   background: var(--primary-template-background);
   height: 10vh;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   border-top: 1px solid #d9d9df;
